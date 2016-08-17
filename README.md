@@ -1,7 +1,11 @@
+My personal dotfiles.
+
+### How to use
 ```
-cd ~
+mkdir dotfiles
+cd dotfiles
 git init
 git remote add origin https://github.com/giorgosera/dotfiles.git
-git fetch --all
-git reset --hard origin/master
+git pull origin master
+stow bash
 ```
